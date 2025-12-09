@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { GiDeliveryDrone } from "react-icons/gi";
 import { PiTruckTrailerFill } from "react-icons/pi";
-import { FaSatellite } from "react-icons/fa";
+import { FaSatellite,FaWhatsapp } from "react-icons/fa";
 
 
 import "./App.css"
@@ -306,14 +306,15 @@ function App() {
         </div>
       </footer>
 
-         <a
-  href="https://wa.me/5511919223489"
-  className="whatsapp-float"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  🟡 Atendimento
-</a>
+            <a
+              href="https://wa.me/5511919223489"
+              className="whatsapp-float"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                {/* 🟢 WhatsApp */}
+                <FaWhatsapp />
+           </a>
     
 
     </div>
